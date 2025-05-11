@@ -1,0 +1,17 @@
+<!-- maintenance-dashboard.component.html -->
+<div class="dashboard-container">
+    <h2>🏠 Maintenance Center</h2>
+    
+    <div class="card-grid">
+      <mat-card class="action-card" (click)="goTo('create')">
+        <mat-icon>add_circle</mat-icon>
+        <p>Create New Request</p>
+      </mat-card>
+  
+      <mat-card class="action-card" (click)="goTo('history')">
+        <mat-icon>list_alt</mat-icon>
+        <p>View Past Requests</p>
+      </mat-card>
+    </div>
+  </div>
+  

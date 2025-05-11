@@ -1,0 +1,26 @@
+/* maintenance-dashboard.component.css */
+.dashboard-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .action-card {
+    width: 200px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .action-card:hover {
+    transform: scale(1.05);
+    background-color: #f5f5f5;
+  }
+  
